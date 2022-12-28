@@ -1,0 +1,17 @@
+name: optionals
+description: A library to use the option of any object.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: '>=2.16.0 <3.0.0'
+  flutter: ">=1.24.0-6.0.pre <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^3.1.0
