@@ -1,11 +1,11 @@
 name: optionals
 description: A library to use the option of any object.
 version: 0.1.0+1
-publish_to: none
+homepage: https://github.com/muhammadmateen027/optionals
 
 environment:
   sdk: '>=2.16.0 <3.0.0'
-  flutter: ">=1.24.0-6.0.pre <2.0.0"
+  flutter: ">=1.24.0-6.0.pre"
 
 dependencies:
   flutter:

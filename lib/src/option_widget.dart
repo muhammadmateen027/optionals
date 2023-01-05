@@ -6,11 +6,11 @@ import 'package:optionals/src/option.dart';
 
 class OptionWidget<T> extends StatelessWidget {
   const OptionWidget({
+    Key? key,
     required this.option,
     required this.builder,
     this.empty = const SizedBox(),
-    super.key,
-  });
+  }) : super(key: key);
 
   final Option<T> option;
 
