@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
-import 'package:optionals/src/exceptions.dart';
-import 'package:optionals/src/no_value_present_error.dart';
-import 'package:optionals/src/option.dart';
+import 'package:helper_options/src/exceptions.dart';
+import 'package:helper_options/src/no_value_present_error.dart';
+import 'package:helper_options/src/option.dart';
 
 // ignore_for_file: use_function_type_syntax_for_parameters
 // ignore_for_file: prefer_final_parameters
@@ -45,7 +45,7 @@ class None<T> implements Option<T> {
   dynamic orNull() => null;
 
   @override
-  T orElseThrow(dynamic supplyError()) => throw supplyError();
+  T orElseThrow(dynamic supplyError()) => throw Exception();
 
   @override
   void ifPresent(void consume(T val), {void orElse()?}) =>
