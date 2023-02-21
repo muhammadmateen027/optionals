@@ -1,23 +1,23 @@
-# Optionals
+# Helper options
 
 
-A project created to get optional item from an object
+A project created to get Helper Options from an object
 
 ## Installation 💻
 
-**❗ In order to start using Optionals you must have the [Flutter SDK][flutter_install_link] installed on your machine.**
+**❗ In order to start using Optionals you must have the Flutter SDK installed on your machine.**
 
-Add `optionals` to your `pubspec.yaml`:
+Add `helper_options` to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  optionals: ^0.1.0+1
+  helper_options: ^0.1.0+3
 ```
 
 Install it:
 
 ```sh
-flutter packages get
+flutter pub add helper_options
 ```
 
 ---
