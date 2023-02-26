@@ -90,4 +90,5 @@ ParentWidget(
 ),
 ```
 
+> Note: You can use this function in a nicer way with all the objects including primitive data types or custom one  
 

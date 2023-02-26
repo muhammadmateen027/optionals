@@ -1,3 +1,7 @@
+[0.1.0+4] - Release February 26, 2023.
+    - Updated the readme file
+    - Added the example to use the options
+
 [0.1.0+3] - Release February 21, 2023.
     
     - Added analysis options
