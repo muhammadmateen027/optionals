@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:optionals/src/option.dart';
+import 'package:helper_options/src/option.dart';
 
 // ignore_for_file: avoid_final_parameters
 // ignore_for_file: public_member_api_docs
 
 class OptionWidget<T> extends StatelessWidget {
   const OptionWidget({
-    Key? key,
     required this.option,
     required this.builder,
+    Key? key,
     this.empty = const SizedBox(),
   }) : super(key: key);
 
