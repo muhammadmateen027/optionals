@@ -1,6 +1,6 @@
 name: helper_options
 description: A library to use the option of any object.
-version: 1.0.0+0
+version: 1.0.0+1
 homepage: https://github.com/muhammadmateen027/optionals
 
 environment:

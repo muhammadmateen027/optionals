@@ -1,3 +1,6 @@
+[1.0.0+1] - Release February 26, 2023.
+- Update the readme description
+
 [1.0.0+0] - Release February 26, 2023.
 - Publish a stable version
 
