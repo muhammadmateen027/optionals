@@ -111,7 +111,7 @@ with CustomWidget:
 ```dart
 
 ParentWidget(
-  child: CustomWidget<User?>(
+  child: OptionWidget<User?>(
     option: Option.of(user),
     empty: final OffStage(), // it is an optional widget to place
     builder: (final context, final user) {
