@@ -47,7 +47,7 @@ with helper_options:
 ```dart
 
 // in your business logic
-Option<User>? user = await api.getUser();
+Option<User> user = Option.of(await api.getUser());
   if (user.isPresent) {
     // do this while getting value as
   final userName = user.value.username;
