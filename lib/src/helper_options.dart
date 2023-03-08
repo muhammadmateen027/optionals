@@ -1,6 +1,4 @@
-export 'exceptions.dart';
-export 'no_value_present_error.dart';
-export 'none.dart';
-export 'option.dart';
-export 'option_widget.dart';
-export 'some.dart';
+export 'exceptions/exceptions.dart';
+export 'extensions/extensions.dart';
+export 'option_methods/option_methods.dart';
+export 'option_widget/option_widget.dart';

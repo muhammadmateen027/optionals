@@ -1,3 +1,10 @@
+[1.0.0+4] - Release March 08, 2023.
+- Update extensions
+
+[1.0.0+3] - Release March 08, 2023.
+- Add helper extension methods
+- Refactor the code
+
 [1.0.0+2] - Release February 27, 2023.
 - Update the readme description
 

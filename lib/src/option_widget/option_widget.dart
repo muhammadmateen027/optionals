@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:helper_options/src/option.dart';
+import 'package:helper_options/helper_options.dart';
 
 // ignore_for_file: avoid_final_parameters
 // ignore_for_file: public_member_api_docs
