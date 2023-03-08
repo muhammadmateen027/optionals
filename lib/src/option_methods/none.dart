@@ -1,7 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:helper_options/src/exceptions.dart';
-import 'package:helper_options/src/no_value_present_error.dart';
-import 'package:helper_options/src/option.dart';
+import 'package:helper_options/helper_options.dart';
 
 // ignore_for_file: use_function_type_syntax_for_parameters
 // ignore_for_file: prefer_final_parameters

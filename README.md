@@ -14,23 +14,22 @@ A generic package created to handle your objects, widgets in a nicer way.
    as possible
 8. Optionally allows the caller to continue a chain of fluent method calls. (arrow methods)
 
+> Note: This package also covers some helpful extensions to keep your code simple
+
 ## Explanation with examples:
 It is a generic class to determine the state of the object:
 
 ```dart
-
 // A sample class object
 class User {
   const User(this.username);
   final String username;
 }
-
 ```
 
 traditional way:
 
 ```dart
-
 // in your business logic
 User? user = await api.getUser();
   if (user == null) {
@@ -39,13 +38,11 @@ User? user = await api.getUser();
 } else {
   // do this
 }
-
 ```
 
 with helper_options:
 
 ```dart
-
 // in your business logic
 Option<User> user = Option.of(await api.getUser());
   if (user.isPresent) {
@@ -54,7 +51,6 @@ Option<User> user = Option.of(await api.getUser());
 } else {
   // do this
 }
-
 ```
 
 Looks cool nah!!!
@@ -62,7 +58,6 @@ Looks cool nah!!!
 You may explore options too:
 
 ```dart
-
 // this option class comes with other helper methods like
 user.empty(); // Creates an empty Option.
 user.filter(); // Returns an Option with this Option's value, if there is a value present and it matches the predicate.  Otherwise, returns an empty Option.
@@ -74,16 +69,16 @@ user.ifPresent(final val){
 // Invokes consume() with this Option's value, if present.
 // Otherwise, if orElse is passed, invokes it, otherwise does nothing. 
 }
-
 ```
+
 ---
 
 ### OptionWidget:
 In another example, we are going to have a super `OptionWidget` to generate the Widget as your data is there:
 
 Traditional way:
-```dart
 
+```dart
 class CustomWidget extends StatelessWidget {
   const CustomWidget({this.user});
   final User? user;
@@ -108,8 +103,8 @@ ParentWidget(
 ```
 
 with CustomWidget:
-```dart
 
+```dart
 ParentWidget(
   child: OptionWidget<User?>(
     option: Option.of(user),
@@ -119,7 +114,6 @@ ParentWidget(
     },
   ),
 ),
-
 ```
 
 > Note: You can use this function in a nicer way with all the objects including primitive data types or custom one  
